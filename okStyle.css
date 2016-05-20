@@ -1,9 +1,12 @@
 /* OK Alterations Style Sheet */
+.logo{
+  height: auto;
+  max-width: 220 px;
+  text-align: center;
+}
 
-.header{
-    text-align: center;
-    font-size: 200%;
-    color:rgba(19, 18, 27, 0.86);
-
-
+.text{
+  color: rgba(9, 8, 9, 0.93);
+  font-size: 60%;
+  font-family: "Georgia";
 }
