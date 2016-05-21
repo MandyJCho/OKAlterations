@@ -1,0 +1,21 @@
+/* OK Alterations Style Sheet */
+html, body {
+  overflow-x: hidden; }
+
+#center {
+  display: block;
+  margin: 0 auto;
+  max-width: 700px; }
+
+.navBar {
+  position: relative;
+  background: 0x000000; }
+
+ul#tags {
+  list-style-type: none;
+  text-align: center; }
+
+li {
+  display: inline;
+  color: white;
+  font-family: Georgia, serif; }
