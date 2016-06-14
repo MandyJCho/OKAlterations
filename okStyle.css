@@ -1,6 +1,6 @@
 /* OK Alterations Style Sheet */
 
-html, body {
+html, body, ul#tags {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
@@ -10,54 +10,45 @@ html, body {
     margin: 1.5em 1em 1em 1em;
 }
 #logo {
-    max-width: 37em;
+    max-width: 40em;
     display: block;
-    margin: 0 auto 1em auto;
+    margin: 0 auto 1.5em auto;
 }
 #logo img {
     margin: 0, auto;
 }
 .navBar {
-    margin: 0, -9999em;
     text-align: center;
-    background: rgba(0, 0, 0, 0.95);
-    border: .1em solid black;
-    margin: 0 -9999em 3em -9999em;
+    background: black;
+    box-shadow: 0px 0px 0px 4px black;
+    margin: 2em  -9999em 3em -9999em;
 }
-.navBarWrapper {
-    border-width: 10em;
-    border-color: rgb(255, 255, 255);
-    padding-bottom: 3em;
-}
-ul#tags {
+ul#tags, li {
     list-style-type: none;
-    justify-content: center;
-    padding: 0;
-}
-li {
     display: inline;
     color: white;
-    font-size: 110%;
-    font-weight: lighter;
-    font-family: courier;
+    font-size: 105%;
+    font-family: "Courier New";
 }
 
-#location:hover{
-  text-decoration: underline;
-  text-decoration-color: rgb(197, 215, 222);
+.address {
+  text-align: center;
+  font-family: sans-serif;
 }
 
-#contact:hover{
-  text-decoration: underline;
-  text-decoration-color: rgb(235, 196, 231)
+#location:hover {
+    background-color: rgb(197, 215, 222);
 }
-
-#services:hover{
-  text-decoration: underline;
-  text-decoration-color: rgb(205, 110, 69);
+#contact:hover {
+    background-color: rgb(228, 161, 219);
 }
+#services:hover {
+    background-color: rgb(196, 122, 90);
+}
+#about:hover {
+    background-color: rgb(209, 73, 65);
+}
+.blueBox{
+  background-color: rgb(100, 120, 157);
 
-#about:hover{
-  text-decoration: underline;
-  text-decoration-color: rgb(209, 73, 65);
 }
